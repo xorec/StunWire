@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.StunWire" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/brand_color</item>
+        <item name="colorPrimaryVariant">@color/brand_color</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="colorAccent">@color/brand_color</item>
+        <item name="dividerColor">@color/light_gray</item>
+        <item name="popupMenuBackground">@color/white</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/white</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">
+            @drawable/ic_day_splash_screen_icon
+        </item>
+        <item name="android:windowSplashScreenIconBackgroundColor" tools:targetApi="s">
+            @color/white
+        </item>
+
+        <item name="android:textColorHighlight">@color/brand_color</item>
+
+        <item name="switchStyle">@style/Widget.AppCompat.CompoundButton.Switch</item>
+
+        <item name="actionOverflowButtonStyle">@style/StunWireToolbarStyle</item>
+        <item name="sessionsListItemColor">@color/sessionsListItem_day</item>
+        <item name="sessionsListItemColorSelected">@color/sessionsListItem_selected_day</item>
+        <item name="timestampColor">@color/sessionTimestamp_day</item>
+        <item name="sentMessageCardBackgroundColor">@color/sentMessageCard_day</item>
+        <item name="receivedMessageCardBackgroundColor">@color/receivedMessageCard_day</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="identity_key_prefence_category"
+        app:title="@string/identity_key_preference_your_key"
+        app:iconSpaceReserved="false">
+
+        <com.example.stunwire.ui.settings.IdentityKeyPreference
+            app:key="identity_key_preference"
+            app:layout="@layout/identity_key_preference" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="session_preference_category"
+        app:title="@string/preference_screen_session_settings"
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            app:key="STUN_SERVER"
+            app:title="@string/preference_screen_used_stun_server"
+            app:defaultValue="stun.l.google.com:19302"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false">
+        </EditTextPreference>
+
+        <SwitchPreferenceCompat
+            app:key="SHOULD_SAVE_PARTNER_ADDRESS"
+            app:title="@string/preference_screen_save_last_partner_id"
+            app:defaultValue="true"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

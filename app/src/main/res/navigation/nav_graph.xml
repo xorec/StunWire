@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/setupFragment">
+
+    <fragment
+        android:id="@+id/setupFragment"
+        android:name="com.example.stunwire.ui.setup.SetupFragment"
+        android:label="SetupFragment"
+        tools:layout="@layout/setup_fragment">
+        <action
+            android:id="@+id/action_setupFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/action_setupFragment_to_sessionFragment"
+            app:destination="@id/sessionFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out"/>
+        <action
+            android:id="@+id/action_setupFragment_to_sessionsListFragment"
+            app:destination="@id/sessionsListFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out"/>
+        <action
+            android:id="@+id/action_setupFragment_to_manualFragment"
+            app:destination="@id/manualFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out"/>
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.stunwire.ui.settings.SettingsFragment"
+        android:label="settings_fragment"
+        tools:layout="@layout/settings_fragment" />
+    <fragment
+        android:id="@+id/sessionFragment"
+        android:name="com.example.stunwire.ui.session.SessionFragment"
+        android:label="SessionFragment"
+        tools:layout="@layout/session_fragment">
+
+        <action
+            android:id="@+id/action_sessionFragment_to_aboutPartnerFragment"
+            app:destination="@id/aboutPartnerFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out"/>
+        <action
+            android:id="@+id/action_sessionFragment_to_imageFragment"
+            app:destination="@id/imageFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/aboutPartnerFragment"
+        android:name="com.example.stunwire.ui.session.AboutPartnerFragment"
+        android:label="about_partner_fragment"
+        tools:layout="@layout/about_partner_fragment" />
+    <fragment
+        android:id="@+id/sessionsListFragment"
+        android:name="com.example.stunwire.ui.saved_sessions.SessionsListFragment"
+        android:label="fragment_sessions_list"
+        tools:layout="@layout/sessions_list_fragment" >
+        <action
+            android:id="@+id/action_sessionsListFragment_to_sessionFragment"
+            app:destination="@id/sessionFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out"/>
+    </fragment>
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="com.example.stunwire.ui.session.ImageFragment"
+        android:label="image_fragment"
+        tools:layout="@layout/image_fragment" />
+    <fragment
+        android:id="@+id/manualFragment"
+        android:name="com.example.stunwire.ui.ManualFragment"
+        android:label="manual_fragment"
+        tools:layout="@layout/manual_fragment" />
+</navigation>

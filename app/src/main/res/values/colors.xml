@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#A2A2A2</color>
+    <color name="dark_gray">#252525</color>
+    <color name="brand_color">#C34545</color>
+    <color name="dark_brand_color">#8A3131</color>
+    <color name="light_brand_color">#FFD3D3</color>
+    <color name="night_background_color">#171717</color>
+    <color name="sessionsListItem_day">#F8F3F3</color>
+    <color name="sessionsListItem_selected_day">#F5CECE</color>
+    <color name="sessionsListItem_night">#1E1E1E</color>
+    <color name="sessionsListItem_selected_night">#A66E6E</color>
+    <color name="sessionTimestamp_day">#959595</color>
+    <color name="sessionTimestamp_night">#959595</color>
+    <color name="sentMessageCard_day">#F5CECE</color>
+    <color name="sentMessageCard_night">#A66E6E</color>
+    <color name="receivedMessageCard_day">#EEF1F6</color>
+    <color name="receivedMessageCard_night">#97999C</color>
+
+</resources>

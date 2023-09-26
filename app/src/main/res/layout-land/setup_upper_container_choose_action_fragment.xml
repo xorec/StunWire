@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cards_top_guideline"
+            app:layout_constraintGuide_percent=".20"
+            android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cards_bottom_guideline"
+            app:layout_constraintGuide_percent=".80"
+            android:orientation="horizontal"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toTopOf="@id/cards_top_guideline"
+            app:layout_constraintBottom_toBottomOf="@id/cards_bottom_guideline"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/setup_upper_container_choose_action_fragment_start_session_cv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="?attr/colorPrimary"
+                app:cardCornerRadius="15dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/start_session_iv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        app:layout_constraintDimensionRatio="1:1"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toLeftOf="@id/start_session_tv"
+                        android:background="@drawable/ic_start_session">
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/start_session_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/start_session_iv"
+                        app:layout_constraintRight_toRightOf="parent"
+                        android:textColor="?android:attr/windowBackground"
+                        android:gravity="center"
+                        android:autoSizeTextType="uniform"
+                        android:maxLines="2"
+                        android:breakStrategy="simple"
+                        android:text="@string/setup_upper_container_choose_action_fragment_start_session"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/setup_upper_container_choose_action_fragment_saved_sessions_cv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:cardBackgroundColor="?attr/colorPrimary"
+                app:cardCornerRadius="15dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/setup_upper_container_choose_action_fragment_saved_sessions_iv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        app:layout_constraintDimensionRatio="1:1"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toLeftOf="@id/setup_upper_container_choose_action_fragment_saved_sessions_tv"
+                        android:background="@drawable/ic_saved_sessions">
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/setup_upper_container_choose_action_fragment_saved_sessions_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toRightOf="@id/setup_upper_container_choose_action_fragment_saved_sessions_iv"
+                        app:layout_constraintRight_toRightOf="parent"
+                        android:textColor="?android:attr/windowBackground"
+                        android:gravity="center"
+                        android:autoSizeTextType="uniform"
+                        android:maxLines="2"
+                        android:breakStrategy="simple"
+                        android:text="@string/setup_upper_container_choose_action_fragment_saved_sessions"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

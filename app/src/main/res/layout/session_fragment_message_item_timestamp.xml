@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/session_message_timestamp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="?attr/timestampColor"
+    android:textSize="11sp"
+    android:includeFontPadding="false"
+    android:layout_marginHorizontal="3dp"
+    android:text="12:00">
+</TextView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sent_session_message_status_iv"
+    android:layout_width="11sp"
+    android:layout_height="11sp"
+    android:layout_gravity="center"
+    android:src="@drawable/baseline_hourglass_top_24"
+    app:tint="?attr/timestampColor">
+
+</ImageView>

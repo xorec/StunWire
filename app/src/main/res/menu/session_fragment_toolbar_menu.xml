@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/session_fragment_toolbar_menu_item_about_partner"
+        android:orderInCategory="300"
+        android:title="@string/session_fragment_toolbar_menu_about_partner"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/session_fragment_toolbar_menu_item_logout"
+        android:orderInCategory="400"
+        android:title="@string/session_fragment_toolbar_menu_logout"
+        android:icon="@drawable/ic_logout"
+        app:iconTint="@color/white"
+        android:visible="false"
+        app:showAsAction="never" />
+
+</menu>

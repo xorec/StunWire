@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/setup_upper_container_info_fragment_your_id_til"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/setup_upper_container_info_fragment_your_id"
+        app:helperText="@string/setup_upper_container_info_fragment_share_your_id_with_partner"
+        app:endIconMode="custom"
+        app:endIconDrawable="@drawable/ic_copy"
+        app:endIconTint="?attr/colorPrimary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/setup_upper_container_info_fragment_your_id_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:focusable="false"
+            android:inputType="none"
+            android:text="256.256.256.256:65536"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/setup_upper_container_info_fragment_partner_id"
+        app:helperText="@string/setup_upper_container_info_fragment_ask_your_partner_for_id">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/setup_upper_container_info_fragment_partner_id_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:inputType="textCapCharacters"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/setup_upper_container_info_fragment_proceed_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setup_upper_container_proceed">
+    </Button>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+</layout>

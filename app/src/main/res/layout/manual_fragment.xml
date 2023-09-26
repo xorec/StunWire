@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/manual_fragment_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:navigationIcon="@drawable/ic_arrow_back"
+            app:navigationIconTint="@color/white"
+            app:titleTextColor="@color/white"
+            app:title="@string/manual_fragment_title">
+        </com.google.android.material.appbar.MaterialToolbar>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                tools:context=".ui.ManualFragment">
+
+                <hakobastvatsatryan.DropdownTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:title_text="@string/manual_fragment_goal_title"
+                    app:content_text="@string/manual_fragment_goal_content"
+                    app:title_text_color="?attr/colorSecondary"
+                    app:title_text_color_expanded="?attr/colorSecondary"
+                    app:content_text_color="?attr/colorSecondary"
+                    app:arrow_drawable="@drawable/ic_arrow_manual"/>
+
+                <hakobastvatsatryan.DropdownTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:title_text="@string/manual_fragment_how_does_it_work_title"
+                    app:content_text="@string/manual_fragment_how_does_it_work_content"
+                    app:title_text_color="?attr/colorSecondary"
+                    app:title_text_color_expanded="?attr/colorSecondary"
+                    app:content_text_color="?attr/colorSecondary"
+                    app:arrow_drawable="@drawable/ic_arrow_manual"/>
+
+                <hakobastvatsatryan.DropdownTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:title_text="@string/manual_fragment_how_to_use_title"
+                    app:content_text="@string/manual_fragment_how_to_use_content"
+                    app:title_text_color="?attr/colorSecondary"
+                    app:title_text_color_expanded="?attr/colorSecondary"
+                    app:content_text_color="?attr/colorSecondary"
+                    app:arrow_drawable="@drawable/ic_arrow_manual"/>
+
+                <hakobastvatsatryan.DropdownTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:title_text="@string/manual_fragment_cellular_network_can_be_used_title"
+                    app:content_text="@string/manual_fragment_cellular_network_can_be_used_content"
+                    app:title_text_color="?attr/colorSecondary"
+                    app:title_text_color_expanded="?attr/colorSecondary"
+                    app:content_text_color="?attr/colorSecondary"
+                    app:arrow_drawable="@drawable/ic_arrow_manual"/>
+
+                <hakobastvatsatryan.DropdownTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:title_text="@string/manual_fragment_partner_identity_title"
+                    app:content_text="@string/manual_fragment_partner_identity_content"
+                    app:title_text_color="?attr/colorSecondary"
+                    app:title_text_color_expanded="?attr/colorSecondary"
+                    app:content_text_color="?attr/colorSecondary"
+                    app:arrow_drawable="@drawable/ic_arrow_manual"/>
+
+                <hakobastvatsatryan.DropdownTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:title_text="@string/manual_fragment_what_is_stun_server_title"
+                    app:content_text="@string/manual_fragment_what_is_stun_server_content"
+                    app:title_text_color="?attr/colorSecondary"
+                    app:title_text_color_expanded="?attr/colorSecondary"
+                    app:content_text_color="?attr/colorSecondary"
+                    app:arrow_drawable="@drawable/ic_arrow_manual"/>
+
+                <hakobastvatsatryan.DropdownTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:title_text="@string/manual_fragment_wait_title"
+                    app:content_text="@string/manual_fragment_wait_content"
+                    app:title_text_color="?attr/colorSecondary"
+                    app:title_text_color_expanded="?attr/colorSecondary"
+                    app:content_text_color="?attr/colorSecondary"
+                    app:arrow_drawable="@drawable/ic_arrow_manual"/>
+
+                <hakobastvatsatryan.DropdownTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:title_text="@string/manual_fragment_how_to_change_stun_server_title"
+                    app:content_text="@string/manual_fragment_how_to_change_stun_server_content"
+                    app:title_text_color="?attr/colorSecondary"
+                    app:title_text_color_expanded="?attr/colorSecondary"
+                    app:content_text_color="?attr/colorSecondary"
+                    app:arrow_drawable="@drawable/ic_arrow_manual"/>
+
+                <hakobastvatsatryan.DropdownTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:title_text="@string/manual_fragment_which_protocols_used_title"
+                    app:content_text="@string/manual_fragment_which_protocols_used_content"
+                    app:title_text_color="?attr/colorSecondary"
+                    app:title_text_color_expanded="?attr/colorSecondary"
+                    app:content_text_color="?attr/colorSecondary"
+                    app:arrow_drawable="@drawable/ic_arrow_manual"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </ScrollView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</layout>

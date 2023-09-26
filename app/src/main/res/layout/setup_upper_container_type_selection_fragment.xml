@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.setup.upper_container.SetupUpperContainerTypeSelectionFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/setup_upper_container_select_session_type_fragment_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setup_upper_container_type_selection_fragment_select_session_type"
+            android:textSize="15sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/setup_upper_container_select_session_type_fragment_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="left"
+            app:layout_constraintTop_toBottomOf="@id/setup_upper_container_select_session_type_fragment_tv"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <RadioButton
+                android:id="@+id/setup_upper_container_session_type_selection_fragment_rb_internet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="?attr/colorPrimary"
+                android:checked="true"
+                android:text="@string/setup_upper_container_type_selection_fragment_internet_session_type" />
+
+            <RadioButton
+                android:id="@+id/setup_upper_container_session_type_selection_fragment_rb_lan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="?attr/colorPrimary"
+                android:checked="false"
+                android:text="@string/setup_upper_container_type_selection_fragment_lan_session_type" />
+        </RadioGroup>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/setup_upper_container_session_type_selection_fragment_proceed_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setup_upper_container_proceed">
+    </Button>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+</layout>

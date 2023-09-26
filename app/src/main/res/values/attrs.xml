@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SessionListItemAttrs">
+        <attr name="sessionsListItemColor" format="color" />
+        <attr name="sessionsListItemColorSelected" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="SessionAttrs">
+        <attr name="timestampColor" format="color" />
+        <attr name="sentMessageCardBackgroundColor" format="color" />
+        <attr name="receivedMessageCardBackgroundColor" format="color" />
+    </declare-styleable>
+
+
+</resources>

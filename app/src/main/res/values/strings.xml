@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">StunWire</string>
+    <string name="fragment_main_manual_supplication_str">Please read the manual carefully before using.</string>
+    <string name="setup_upper_container_choose_action_fragment_start_session">Start session</string>
+    <string name="setup_upper_container_choose_action_fragment_saved_sessions">Saved sessions</string>
+    <string name="setup_upper_container_type_selection_fragment_select_session_type">Please select session type:</string>
+    <string name="setup_upper_container_type_selection_fragment_internet_session_type">Over the Internet</string>
+    <string name="setup_upper_container_type_selection_fragment_lan_session_type">Over the LAN</string>
+    <string name="setup_upper_container_proceed">Proceed</string>
+    <string name="setup_lower_container_cancel_fragment_button">Cancel</string>
+    <string name="setup_upper_container_loading_fragment_waiting_for_results">Waiting for results...</string>
+    <string name="setup_upper_container_info_fragment_your_id">Your address</string>
+    <string name="setup_upper_container_info_fragment_share_your_id_with_partner">Share your address with your partner</string>
+    <string name="setup_upper_container_info_fragment_partner_id">Partner address</string>
+    <string name="setup_upper_container_info_fragment_ask_your_partner_for_id">And ask your partner to provide you their address</string>
+    <string name="settings_fragment_title">Settings</string>
+    <string name="preference_screen_session_settings">Connection settings</string>
+    <string name="preference_screen_used_stun_server">STUN server</string>
+    <string name="preference_screen_save_last_partner_id">Save partner address</string>
+    <string name="preference_screen_hole_punching_test">Hole punching test</string>
+    <string name="preference_screen_perform_hole_punching_test">Perform hole punching test</string>
+    <string name="preference_screen_stun_server_for_test">STUN server used for test</string>
+    <string name="preference_screen_hole_punching_test_duration">Hole punching test duration</string>
+    <string name="preference_screen_partner_id_will_be_filled_automatically">Partner address field will be filled automatically</string>
+    <string name="preference_screen_partner_id_saving_disabled">Last partner address saving is disabled</string>
+    <string name="preference_screen_hole_punching_will_be_performed_every_time">Hole punching test will be performed every time</string>
+    <string name="preference_screen_hole_punching_will_not_be_performed">Hole punching test will not be performed</string>
+    <string name="preference_screen_duration_seconds"> second(s)</string>
+    <string name="session_fragment_message">Message</string>
+    <string name="session_fragment_you_are_connected">You are connected</string>
+    <string name="session_fragment_toolbar_menu_about_partner">About partner</string>
+    <string name="session_fragment_toolbar_menu_logout">Disconnect</string>
+    <string name="session_images_list_fragment_images">Images</string>
+    <string name="logout_dialog_fragment_do_you_want_to_logout">Do you want to end conversation?</string>
+    <string name="logout_dialog_fragment_yes">Yes</string>
+    <string name="logout_dialog_fragment_no">No</string>
+    <string name="lame_fragment_reason_primary_stun_server_does_not_respond">Unfortunately, there is a problem with the STUN server. Try to change STUN server.</string>
+    <string name="identity_key_preference_your_key">Your public key</string>
+    <string name="identity_key_preference_refresh">Refresh</string>
+    <string name="identity_key_preference_share">Share</string>
+    <string name="preference_screen_server_response_timeout">Server response timeout</string>
+    <string name="loading_fragment_connecting_to_partner">Connecting to partner...</string>
+    <string name="session_fragment_toolbar_disconnecting">Disconnecting...</string>
+    <string name="session_fragment_toolbar_disconnected">Session is over</string>
+    <string name="lame_fragment_unknown_error_occurred">Unknown error occurred</string>
+    <string name="notification_title_stunwire_service_active">StunWire service is active</string>
+    <string name="notification_title_stunwire_service_not_active">StunWire service is not active</string>
+    <string name="notification_content_text_ready_to_work">StunWire service is ready to work</string>
+    <string name="notification_content_text_retrieving_info">Retrieving network address...</string>
+    <string name="notification_content_text_your_info">Your network address:\ </string>
+    <string name="notification_content_text_primary_server_does_not_respond">Unfortunately, primary STUN server does not respond</string>
+    <string name="notification_content_text_secondary_server_does_not_respond">Unfortunately, secondary STUN server does not respond</string>
+    <string name="notification_content_text_test_failed">Unfortunately, hole punching test was failed</string>
+    <string name="session_fragment_toolbar_peer_typing">Partner is typing...</string>
+    <string name="sessions_list_fragment_number_sessions_selected">session(s) selected</string>
+    <string name="notification_subtitle_error">Unfortunately, an error has occurred while receiving address</string>
+    <string name="setup_info_fragment_error">Please check the input</string>
+    <string name="preference_fragment_check_input">Please check the input. Example: domain.name:65536</string>
+    <string name="preference_fragment_unable_to_share">Unfortunately, unable to share key image</string>
+    <string name="session_fragment_placeholder_item_tv">Message is loading or content type is unsupported by this version of the app, try to update</string>
+    <string name="about_partner_fragment_your_partner_public_key">Your partner\'s public key:</string>
+    <string name="about_partner_fragment_full_version">Full version:</string>
+    <string name="setup_lower_container_manual_fragment_button">Manual</string>
+    <string name="manual_fragment_title">Manual</string>
+    <string name="manual_fragment_goal_title">The goal</string>
+    <string name="manual_fragment_goal_content">The goal of this application is to provide ability to
+    establish direct encrypted connection via Internet with the partner without any servers and without
+    dependency on any service infrastructure. This application can also be used for educational
+     purposes. All the sources are available at the GitHub.</string>
+    <string name="manual_fragment_how_does_it_work_title">How does it work?</string>
+    <string name="manual_fragment_how_does_it_work_content">If we want to send a letter to some person,
+        we have to know their address. It works exactly similar for the Internet connections.
+        A server that is placed somewhere in the Internet which is available to connect always has
+        it\'s domain name or at least known IP address, the address which is used to connect to the server.
+    But what will happen if we want to connect not to the server, but to some other client, the ordinal
+    network user? Ordinal users do not have their own static address to connect to. Instead, the ISP
+        (Internet Service Provider), the company which provides Internet services to the user, \"divides\"
+    the address between many users. Any request from particular user is then assigned a unique number
+    (a port). So, in the case we want to connect to ordinal person via Internet, their address will be
+    [IP address]:[Port] pair. If we know the pair, we can connect to the user.</string>
+    <string name="manual_fragment_how_to_use_title">How to use?</string>
+    <string name="manual_fragment_how_to_use_content">In order to establish connection with the remote partner,
+    follow these steps:
+    1. Select \"Start session\" button at the main screen;
+    2. Choose session type;
+    3. After a little delay you will see a screen with your address. Copy this info and send to your
+    partner via other messenger;
+    4. Ask your partner to send you their address as well;
+    5. Enter partner address in the corresponding field;
+    6. Press \"Connect\" button.
+    If connection was successfully established, you will see a chat screen. If you want to finish session,
+    open three-dots menu and press \"Disconnect\" button. The session will be finished, you will be no
+    longer able to send messages. Session messages will be saved, you can access them by pressing the \"Saved sessions\"
+    button at the main screen.</string>
+    <string name="manual_fragment_cellular_network_can_be_used_title">Can cellular network be used?</string>
+    <string name="manual_fragment_cellular_network_can_be_used_content">NO! Due to technical limitations
+    only a Wi-Fi ISP connection can be used. For example, your home network or a cafe free Wi-Fi.</string>
+    <string name="manual_fragment_partner_identity_title">How can I check if I\'m talking to the intended
+    person?</string>
+    <string name="manual_fragment_partner_identity_content">At the settings screen you can see your
+    identity key image. This is the point of identity at this application. You can export the key image and send it
+    to your partner via other messenger. When you\'re connected to the partner, you can briefly check their
+    identity key image at the \"About partner\" screen. You can also check the full version of the key there.
+    IMPORTANT: the [IP-address]:[port] pair cannot be the point of identity check as it can be corrupted by
+    the STUN server or other intruder, because it is sent in plaintext, without encryption. So, for
+    confidential conversations ALWAYS check the identity of the person you\'re talking to. Remember: your
+    confidentiality is in your and ONLY your hands, this application is provided to you without any express
+     or implied guaranties. By continuing using this application, you agree with these terms.</string>
+    <string name="manual_fragment_what_is_stun_server_title">What is STUN server?</string>
+    <string name="manual_fragment_what_is_stun_server_content">As was mentioned above, the ordinal Internet
+    user does not have a static address to connect to, instead of this they have [IP address]:[port] pair.
+    But the user does not know this pair in advance, until their request reaches the Internet. So,
+    STUN server is the server placed somewhere at the Internet, which tells the user their pair
+    via STUN protocol. STUN is the standardized protocol, any many free STUN servers exist, so you can
+    always change the used server at the settings.</string>
+    <string name="manual_fragment_wait_title">Does STUN server participate in session?</string>
+    <string name="manual_fragment_wait_content">Not at all. A STUN server\'s the only purpose is to tell
+    the user their [IP address]:[port] pair, which was provided by the ISP. That\'s all. A STUN server does not
+    receive any session data, either encrypted or decrypted and does not participate in any way in the conversation.</string>
+    <string name="manual_fragment_how_to_change_stun_server_title">How to change STUN server?</string>
+    <string name="manual_fragment_how_to_change_stun_server_content">There are many free STUN servers. You can easily
+    find their addresses by googling \"free STUN server\". Then, put the address in the corresponding field
+    at the settings screen.</string>
+    <string name="manual_fragment_which_protocols_used_title">Cryptographic protocols</string>
+    <string name="manual_fragment_which_protocols_used_content">RSA-2048 key is used as the identity key,
+    which serves as the point of identity in this application. RSA key is used only for signing. ECDH
+    is used as the key agreement protocol. For symmetric encryption, AES256-GCM is used.</string>
+
+</resources>

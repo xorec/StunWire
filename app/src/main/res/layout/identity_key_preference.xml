@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical|start">
+
+        <ImageView
+            android:id="@+id/identity_key_preference_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </ImageView>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="right"
+                android:gravity="center">
+
+                <Button
+                    style="@style/Widget.Material3.Button.TextButton.Icon"
+                    android:id="@+id/identity_key_refresh_preference_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    app:icon="@drawable/baseline_refresh_24"
+                    app:iconTint="?android:attr/colorPrimary"
+                    android:text="@string/identity_key_preference_refresh">
+
+                </Button>
+
+                <Button
+                    style="@style/Widget.Material3.Button.TextButton.Icon"
+                    android:id="@+id/identity_key_share_preference_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    app:icon="@drawable/baseline_share_24"
+                    app:iconTint="?android:attr/colorPrimary"
+                    android:text="@string/identity_key_preference_share">
+
+                </Button>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </FrameLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

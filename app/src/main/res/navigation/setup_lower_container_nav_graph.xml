@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/setup_lower_container_nav_graph"
+    app:startDestination="@id/setupLowerContainerManualFragment">
+
+    <fragment
+        android:id="@+id/setupLowerContainerManualFragment"
+        android:name="com.example.stunwire.ui.setup.lower_container.SetupLowerContainerManualFragment"
+        android:label="SetupLowerContainerManualFragment">
+        <action
+            android:id="@+id/action_setupLowerContainerManualFragment_to_setupLowerContainerCancelFragment"
+            app:destination="@id/setupLowerContainerCancelFragment"
+            app:enterAnim="@anim/enter_from_bottom"
+            app:exitAnim="@anim/exit_to_top"
+            app:popEnterAnim="@anim/enter_from_top"
+            app:popExitAnim="@anim/exit_to_bottom"/>
+    </fragment>
+    <fragment
+        android:id="@+id/setupLowerContainerCancelFragment"
+        android:name="com.example.stunwire.ui.setup.lower_container.SetupLowerContainerCancelFragment"
+        android:label="SetupLowerContainerCancelFragment" />
+</navigation>
