@@ -10,4 +10,4 @@ The goal of this application is to provide ability to establish direct encrypted
 - UDP
 
 # Demonstation
-![Frame](https://github.com/xorec/StunWire/assets/143298866/c6abae8b-10a0-46e4-b64a-e5e231a9c2d9)
+![Frame](https://github.com/xorec/StunWire/assets/143298866/d3fe7d1f-8e2d-4d44-8c10-f3176d914a21)
