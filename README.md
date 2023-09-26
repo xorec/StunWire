@@ -9,5 +9,5 @@ The goal of this application is to provide ability to establish direct encrypted
 - MVVM
 - UDP
 
-# Demonstation
+# Demonstration
 ![Frame](https://github.com/xorec/StunWire/assets/143298866/d3fe7d1f-8e2d-4d44-8c10-f3176d914a21)
