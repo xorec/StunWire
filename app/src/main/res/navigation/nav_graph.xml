@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/setupFragment"
-        android:name="com.example.stunwire.ui.setup.SetupFragment"
+        android:name="com.xorec.stunwire.ui.setup.SetupFragment"
         android:label="SetupFragment"
         tools:layout="@layout/setup_fragment">
         <action
@@ -41,12 +41,12 @@
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.example.stunwire.ui.settings.SettingsFragment"
+        android:name="com.xorec.stunwire.ui.settings.SettingsFragment"
         android:label="settings_fragment"
         tools:layout="@layout/settings_fragment" />
     <fragment
         android:id="@+id/sessionFragment"
-        android:name="com.example.stunwire.ui.session.SessionFragment"
+        android:name="com.xorec.stunwire.ui.session.SessionFragment"
         android:label="SessionFragment"
         tools:layout="@layout/session_fragment">
 
@@ -63,12 +63,12 @@
     </fragment>
     <fragment
         android:id="@+id/aboutPartnerFragment"
-        android:name="com.example.stunwire.ui.session.AboutPartnerFragment"
+        android:name="com.xorec.stunwire.ui.session.AboutPartnerFragment"
         android:label="about_partner_fragment"
         tools:layout="@layout/about_partner_fragment" />
     <fragment
         android:id="@+id/sessionsListFragment"
-        android:name="com.example.stunwire.ui.saved_sessions.SessionsListFragment"
+        android:name="com.xorec.stunwire.ui.saved_sessions.SessionsListFragment"
         android:label="fragment_sessions_list"
         tools:layout="@layout/sessions_list_fragment" >
         <action
@@ -81,12 +81,12 @@
     </fragment>
     <fragment
         android:id="@+id/imageFragment"
-        android:name="com.example.stunwire.ui.session.ImageFragment"
+        android:name="com.xorec.stunwire.ui.session.ImageFragment"
         android:label="image_fragment"
         tools:layout="@layout/image_fragment" />
     <fragment
         android:id="@+id/manualFragment"
-        android:name="com.example.stunwire.ui.ManualFragment"
+        android:name="com.xorec.stunwire.ui.ManualFragment"
         android:label="manual_fragment"
         tools:layout="@layout/manual_fragment" />
 </navigation>

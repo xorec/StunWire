@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">StunWire</string>
-    <string name="fragment_main_manual_supplication_str">Пожалуйста, прочтите инструкцию перед использованием.</string>
     <string name="setup_upper_container_choose_action_fragment_start_session">Новая сессия</string>
     <string name="setup_upper_container_choose_action_fragment_saved_sessions">Архив сессий</string>
     <string name="setup_upper_container_type_selection_fragment_select_session_type">Пожалуйста, выберите тип сессии:</string>
@@ -17,20 +16,12 @@
     <string name="preference_screen_session_settings">Настройки соединения</string>
     <string name="preference_screen_used_stun_server">Сервер STUN</string>
     <string name="preference_screen_save_last_partner_id">Сохранять адрес партнера</string>
-    <string name="preference_screen_hole_punching_test">Тест hole punching</string>
-    <string name="preference_screen_perform_hole_punching_test">Выполнять тест hole punching</string>
-    <string name="preference_screen_stun_server_for_test">Сервер STUN для теста</string>
-    <string name="preference_screen_hole_punching_test_duration">Длительность теста hole punching</string>
     <string name="preference_screen_partner_id_will_be_filled_automatically">Адрес партнера будет введен автоматически</string>
     <string name="preference_screen_partner_id_saving_disabled">Сохранение адреса партнера выключено</string>
-    <string name="preference_screen_hole_punching_will_be_performed_every_time">Тест hole punching будет выполняться каждый раз</string>
-    <string name="preference_screen_hole_punching_will_not_be_performed">Выполнение тестов hole punching отключено</string>
-    <string name="preference_screen_duration_seconds"> секунд(ы)</string>
     <string name="session_fragment_message">Сообщение</string>
     <string name="session_fragment_you_are_connected">Вы подключены</string>
     <string name="session_fragment_toolbar_menu_about_partner">О партнере</string>
     <string name="session_fragment_toolbar_menu_logout">Отключиться</string>
-    <string name="session_images_list_fragment_images">Изображения</string>
     <string name="logout_dialog_fragment_do_you_want_to_logout">Вы действительно хотите завершить разговор?</string>
     <string name="logout_dialog_fragment_yes">Да</string>
     <string name="logout_dialog_fragment_no">Нет</string>
@@ -38,7 +29,6 @@
     <string name="identity_key_preference_your_key">Ваш открытый ключ</string>
     <string name="identity_key_preference_refresh">Обновить</string>
     <string name="identity_key_preference_share">Послать</string>
-    <string name="preference_screen_server_response_timeout">Время ожидания ответа от сервера</string>
     <string name="loading_fragment_connecting_to_partner">Подключаемся к партнеру...</string>
     <string name="session_fragment_toolbar_disconnecting">Отключаемся...</string>
     <string name="session_fragment_toolbar_disconnected">Сессия завершена</string>
@@ -48,9 +38,6 @@
     <string name="notification_content_text_ready_to_work">Сервис StunWire готов к работе</string>
     <string name="notification_content_text_retrieving_info">Получаем сетевой адрес...</string>
     <string name="notification_content_text_your_info">Ваш сетевой адрес:\ </string>
-    <string name="notification_content_text_primary_server_does_not_respond">К сожалению, основной сервер STUN не отвечает</string>
-    <string name="notification_content_text_secondary_server_does_not_respond">К сожалению, дополнительный сервер STUN не отвечает</string>
-    <string name="notification_content_text_test_failed">К сожалению, тест hole punching не пройден</string>
     <string name="session_fragment_toolbar_peer_typing">Партнер печатает...</string>
     <string name="sessions_list_fragment_number_sessions_selected">сессий выбрано</string>
     <string name="notification_subtitle_error">К сожалению, во время получения адреса произошла ошибка</string>

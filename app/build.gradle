@@ -7,23 +7,22 @@ apply plugin: "kotlin-android"
 apply plugin: "kotlin-kapt"
 
 android {
-    compileSdkPreview = "UpsideDownCake"
-    namespace 'com.example.stunwire'
+    compileSdk = 34
+    namespace 'com.xorec.stunwire'
 
     defaultConfig {
-        applicationId 'com.example.stunwire'
-        minSdk 26
-        targetSdk 33
+        applicationId 'com.xorec.stunwire'
+        minSdk 24
+        targetSdk 34
         versionCode 1
-        versionName "1.0"
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        versionName "1.0.0"
     }
 
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
         }
     }
     compileOptions {
@@ -50,11 +49,8 @@ dependencies {
     implementation 'androidx.preference:preference-ktx:1.2.1'
     implementation 'androidx.preference:preference-ktx:1.2.1'
     implementation 'androidx.paging:paging-common-ktx:3.2.1'
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
-    def nav_version = "2.7.3"
+    def nav_version = "2.7.4"
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
     implementation "androidx.navigation:navigation-runtime-ktx:$nav_version"

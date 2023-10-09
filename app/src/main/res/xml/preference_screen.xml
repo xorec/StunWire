@@ -5,7 +5,7 @@
         app:title="@string/identity_key_preference_your_key"
         app:iconSpaceReserved="false">
 
-        <com.example.stunwire.ui.settings.IdentityKeyPreference
+        <com.xorec.stunwire.ui.settings.IdentityKeyPreference
             app:key="identity_key_preference"
             app:layout="@layout/identity_key_preference" />
 

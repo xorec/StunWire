@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">StunWire</string>
-    <string name="fragment_main_manual_supplication_str">Please read the manual carefully before using.</string>
     <string name="setup_upper_container_choose_action_fragment_start_session">Start session</string>
     <string name="setup_upper_container_choose_action_fragment_saved_sessions">Saved sessions</string>
     <string name="setup_upper_container_type_selection_fragment_select_session_type">Please select session type:</string>
@@ -17,20 +16,12 @@
     <string name="preference_screen_session_settings">Connection settings</string>
     <string name="preference_screen_used_stun_server">STUN server</string>
     <string name="preference_screen_save_last_partner_id">Save partner address</string>
-    <string name="preference_screen_hole_punching_test">Hole punching test</string>
-    <string name="preference_screen_perform_hole_punching_test">Perform hole punching test</string>
-    <string name="preference_screen_stun_server_for_test">STUN server used for test</string>
-    <string name="preference_screen_hole_punching_test_duration">Hole punching test duration</string>
     <string name="preference_screen_partner_id_will_be_filled_automatically">Partner address field will be filled automatically</string>
     <string name="preference_screen_partner_id_saving_disabled">Last partner address saving is disabled</string>
-    <string name="preference_screen_hole_punching_will_be_performed_every_time">Hole punching test will be performed every time</string>
-    <string name="preference_screen_hole_punching_will_not_be_performed">Hole punching test will not be performed</string>
-    <string name="preference_screen_duration_seconds"> second(s)</string>
     <string name="session_fragment_message">Message</string>
     <string name="session_fragment_you_are_connected">You are connected</string>
     <string name="session_fragment_toolbar_menu_about_partner">About partner</string>
     <string name="session_fragment_toolbar_menu_logout">Disconnect</string>
-    <string name="session_images_list_fragment_images">Images</string>
     <string name="logout_dialog_fragment_do_you_want_to_logout">Do you want to end conversation?</string>
     <string name="logout_dialog_fragment_yes">Yes</string>
     <string name="logout_dialog_fragment_no">No</string>
@@ -38,7 +29,6 @@
     <string name="identity_key_preference_your_key">Your public key</string>
     <string name="identity_key_preference_refresh">Refresh</string>
     <string name="identity_key_preference_share">Share</string>
-    <string name="preference_screen_server_response_timeout">Server response timeout</string>
     <string name="loading_fragment_connecting_to_partner">Connecting to partner...</string>
     <string name="session_fragment_toolbar_disconnecting">Disconnecting...</string>
     <string name="session_fragment_toolbar_disconnected">Session is over</string>
@@ -48,9 +38,6 @@
     <string name="notification_content_text_ready_to_work">StunWire service is ready to work</string>
     <string name="notification_content_text_retrieving_info">Retrieving network address...</string>
     <string name="notification_content_text_your_info">Your network address:\ </string>
-    <string name="notification_content_text_primary_server_does_not_respond">Unfortunately, primary STUN server does not respond</string>
-    <string name="notification_content_text_secondary_server_does_not_respond">Unfortunately, secondary STUN server does not respond</string>
-    <string name="notification_content_text_test_failed">Unfortunately, hole punching test was failed</string>
     <string name="session_fragment_toolbar_peer_typing">Partner is typing...</string>
     <string name="sessions_list_fragment_number_sessions_selected">session(s) selected</string>
     <string name="notification_subtitle_error">Unfortunately, an error has occurred while receiving address</string>

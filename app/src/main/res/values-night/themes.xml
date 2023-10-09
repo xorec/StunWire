@@ -1,45 +1,23 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+<resources>
     <style name="Theme.StunWire" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
         <item name="colorPrimary">@color/dark_brand_color</item>
         <item name="colorPrimaryVariant">@color/dark_brand_color</item>
         <item name="colorOnPrimary">@color/black</item>
-        <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/white</item>
         <item name="colorSecondaryVariant">@color/white</item>
         <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
         <item name="android:windowBackground">@color/night_background_color</item>
-        <item name="android:navigationBarColor">@color/night_background_color</item>
-        <item name="android:windowLightNavigationBar">false</item>
         <item name="colorAccent">@color/dark_brand_color</item>
         <item name="dividerColor">@color/dark_gray</item>
         <item name="popupMenuBackground">@color/night_background_color</item>
-        <item name="android:windowSplashScreenBackground" tools:targetApi="s">
-            @color/night_background_color
-        </item>
-        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">
-            @drawable/ic_night_splash_screen_icon
-        </item>
-        <item name="android:windowSplashScreenIconBackgroundColor" tools:targetApi="s">
-            @color/night_background_color
-        </item>
-
         <item name="android:textColorHighlight">@color/dark_brand_color</item>
-
         <item name="switchStyle">@style/Widget.AppCompat.CompoundButton.Switch</item>
-
         <item name="actionOverflowButtonStyle">@style/StunWireToolbarStyle</item>
-
         <item name="sessionsListItemColor">@color/sessionsListItem_night</item>
         <item name="sessionsListItemColorSelected">@color/sessionsListItem_selected_night</item>
         <item name="timestampColor">@color/sessionTimestamp_night</item>
         <item name="sentMessageCardBackgroundColor">@color/sentMessageCard_night</item>
         <item name="receivedMessageCardBackgroundColor">@color/receivedMessageCard_night</item>
-
     </style>
-
 </resources>
